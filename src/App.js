@@ -1,18 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 import "./Table.js"
+import "./Entry"
+import "./data"
 import MyTable from './Table.js';
+import Entry from './Entry';
+import data from './data';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Initialize
-        </p>
-        <h1>Table for Cars</h1>
-        <MyTable></MyTable>
-        <MyTable></MyTable>
-      </header>
+      <Entry
+      make = {data[0].make}
+      model = {data[0].model}
+      price = {data[0].price}
+       />
+        
     </div>
   );
 }

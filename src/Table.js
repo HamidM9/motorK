@@ -10,14 +10,60 @@ function MyTable() {
       <table>
         <thead>
           <tr>
-            
             <th>Make</th>
             <th>Model</th>
             <th>Price</th>
           </tr>
         </thead>
         <tbody>
-          
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tbody>
+        <tbody>
+            <td></td>
+            <td></td>
+            <td></td>
         </tbody>
       </table>
     </div>
