@@ -1,14 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import "./Table.js"
+import "./searchBar.js"
 import "./Entry"
 import "./data"
 import MyTable from './Table.js';
 import Entry from './Entry';
 import data from './data';
+import SearchBar from './searchBar.js';
 function App() {
   return (
     <div className="App">
+      <SearchBar placeholder="Enter car" data={data} />
       <Entry make = {data[0].make} model = {data[0].model} price = {data[0].price} />
       <Entry make = {data[1].make} model = {data[1].model} price = {data[1].price} />
       <Entry make = {data[2].make} model = {data[2].model} price = {data[2].price} />
