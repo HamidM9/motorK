@@ -3,13 +3,13 @@ import React from "react";
 import Entry from "../Entry";
 import data from "../data";
 
-function Tesla() {
+function Honda() {
 return (
     <div>
-    <h1><Entry make = {data[0].make}/></h1>
+    <h1><Entry make = {data[3].make}/></h1>
     
     </div>
 );
 }
 
-export default Tesla;
+export default Honda;

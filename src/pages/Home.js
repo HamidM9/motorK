@@ -1,17 +1,20 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 import Entry from "../Entry.js";
 import data from "../data.js";
 import SearchBar from "../searchBar.js";
 function Home() {
 return (
     <div>
+    
 <SearchBar placeholder="Enter car" data={data} />
+
 <Entry make = {data[0].make} model = {data[0].model} price = {data[0].price} />
+<Entry make = {data[1].make} model = {data[1].model} price = {data[1].price} />
 <Entry make = {data[2].make} model = {data[2].model} price = {data[2].price} />
 <Entry make = {data[3].make} model = {data[3].model} price = {data[3].price} />
 <Entry make = {data[4].make} model = {data[4].model} price = {data[4].price} />
-<Entry make = {data[1].make} model = {data[1].model} price = {data[1].price} />
 <Entry make = {data[5].make} model = {data[5].model} price = {data[5].price} />
 <Entry make = {data[6].make} model = {data[6].model} price = {data[6].price} />
 <Entry make = {data[7].make} model = {data[7].model} price = {data[7].price} />
