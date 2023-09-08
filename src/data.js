@@ -8,6 +8,8 @@ const data = [
 
         "model": "Model S",
 
+        "link" : "Tesla",
+
         "price": 79990,
 
         "description": "Electric sedan",
