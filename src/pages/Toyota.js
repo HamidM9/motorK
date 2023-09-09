@@ -1,7 +1,6 @@
 
 import React from "react";
-import Entry from "../Entry";
-import data from "../data";
+
 
 function Toyota() {
 return (

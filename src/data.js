@@ -144,7 +144,7 @@ const data = [
 
         "id": 8,
 
-        "make": "Mercedes-Benz",
+        "make": "Mercedes",
 
         "model": "C-Class",
 

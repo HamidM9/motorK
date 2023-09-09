@@ -1,7 +1,4 @@
-import logo from './logo.svg';
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, Switch, Router } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
 import Home from './pages/Home';
