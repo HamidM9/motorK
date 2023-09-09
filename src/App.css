@@ -16,6 +16,7 @@ body, h1, p {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
 }
 
+
 /* Style the heading */
 h1 {
   font-size: 24px;
@@ -71,4 +72,45 @@ a:hover {
   justify-content: center; /* Center the content vertically and horizontally */
   background-image: linear-gradient(90deg, #e6e1eb, #8b8590);
   padding: 20px; /* Add padding to center content */
+}
+
+/* Style for the container that wraps both the search bar and car entries */
+.container {
+  position: relative;
+}
+
+/* Style for the search bar container */
+.search-bar-container {
+  position: absolute;
+  top: 40px; /* Adjust the top offset as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  /* Additional styling for the search bar container */
+}
+
+/* Style for the car entries container */
+.car-entries-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+  grid-gap: 20px; /* Add spacing between entries */
+  margin-top: 100px; /* Adjust the top margin to ensure space below the search bar */
+}
+
+/* Style for each car entry (table cell) */
+.car-entry {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Style for table headers */
+.table-header {
+  font-weight: bold;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
 }
