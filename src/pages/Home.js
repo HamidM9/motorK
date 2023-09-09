@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Entry from "../Entry.js";
 import data from "../data.js";
-import SearchBar from "../searchBar.js";
+import SearchBar from "../components/searchBar.js"
 function Home() {
 return (
     <div>
