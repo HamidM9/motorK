@@ -5,10 +5,13 @@ import data from "../data";
 
 function Hyundai() {
 return (
-    <div>
-    <h1><Entry make = {data[13].make}/></h1>
-    
-    </div>
+    <div class="container">
+    <h1>Car Details</h1>
+    <div class="car-info">Hyundai Elantra</div>
+    <div class="description">Compact car</div>
+    <div class="features">Features: Apple CarPlay, SafetySense</div>
+    <div class="mileage">Mileage: 0</div>
+</div>
 );
 }
 

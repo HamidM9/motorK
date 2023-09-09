@@ -5,10 +5,13 @@ import data from "../data";
 
 function Jeep() {
 return (
-    <div>
-    <h1><Entry make = {data[5].make}/></h1>
-    
-    </div>
+    <div class="container">
+    <h1>Car Details</h1>
+    <div class="car-info">Jeep Wrangler</div>
+    <div class="description">SUV</div>
+    <div class="features">Features: 4x4, Removable top</div>
+    <div class="mileage">Mileage: 0</div>
+</div>
 );
 }
 

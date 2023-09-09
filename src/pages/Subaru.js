@@ -5,10 +5,13 @@ import data from "../data";
 
 function Subaru() {
 return (
-    <div>
-    <h1><Entry make = {data[11].make}/></h1>
-    
-    </div>
+    <div class="container">
+    <h1>Car Details</h1>
+    <div class="car-info">Subaru Outback</div>
+    <div class="description">SUV</div>
+    <div class="features">Features: All-wheel drive, EyeSight</div>
+    <div class="mileage">Mileage: 0</div>
+</div>
 );
 }
 

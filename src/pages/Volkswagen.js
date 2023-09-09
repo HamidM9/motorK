@@ -5,10 +5,13 @@ import data from "../data";
 
 function Volkswagen() {
 return (
-    <div>
-    <h1><Entry make = {data[10].make}/></h1>
-    
-    </div>
+    <div class="container">
+    <h1>Car Details</h1>
+    <div class="car-info">Volkswagen Golf</div>
+    <div class="description">Compact car</div>
+    <div class="features">Features: Turbocharged, Apple CarPlay</div>
+    <div class="mileage">Mileage: 0</div>
+</div>
 );
 }
 

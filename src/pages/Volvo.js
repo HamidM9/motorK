@@ -5,10 +5,13 @@ import data from "../data";
 
 function Volvo() {
 return (
-    <div>
-    <h1><Entry make = {data[16].make}/></h1>
-    
-    </div>
+    <div class="container">
+    <h1>Car Details</h1>
+    <div class="car-info">Volvo XC90</div>
+    <div class="description">Luxury SUV</div>
+    <div class="features">Features: All-wheel drive, Turbocharged</div>
+    <div class="mileage">Mileage: 0</div>
+</div>
 );
 }
 
