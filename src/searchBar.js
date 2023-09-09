@@ -12,7 +12,8 @@ function SearchBar({ placeholder, data }) {
     const searchWord = event.target.value;
     setWordEntered(searchWord);
     const newFilter = data.filter((value) => {
-      return value.make.toLowerCase().includes(searchWord.toLowerCase());
+      return value.make.toLowerCase().includes(searchWord.toLowerCase()) || (value.model.toLowerCase().includes(searchWord.toLowerCase()));
+      
     });
 
     if (searchWord === "") {
@@ -30,7 +31,7 @@ function SearchBar({ placeholder, data }) {
   return (
     <div className="search">
       <div className="searchInputs">
-        <input type="text" placeholder={placeholder} value={wordEntered} onChange={handleFilter} />
+        <input type="text" placeholder="Enter a Make or Model Please" value={wordEntered} onChange={handleFilter} />
         <div className="searchIcon">
           {filteredData.length === 0 ? (
             <SearchIcon />
@@ -44,7 +45,8 @@ function SearchBar({ placeholder, data }) {
           {filteredData.slice(0, 15).map((value, key) => {
             return (
               <a className="dataItem" href={value.link} target="_blank">
-                <p>{value.make} </p>
+                <p>{value.make}</p>
+                <p>{value.model}</p>
               </a>
             );
           })}

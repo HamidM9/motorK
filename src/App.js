@@ -25,6 +25,7 @@ import Volvo from "./pages/Volvo";
 import Lexus from "./pages/Lexus";
 import Cadillac from "./pages/Cadillac";
 import Jaguar from "./pages/Jaguar";
+import "./SearchBar.css";
 
 
 

@@ -8,13 +8,13 @@ const data = [
 
         "model": "Model S",
 
-        "link" : "Tesla",
-
         "price": 79990,
 
         "description": "Electric sedan",
 
         "features": "Autopilot, All-wheel drive",
+
+        "link" : "Tesla",
 
         "mileage": 0
 
@@ -34,6 +34,8 @@ const data = [
 
         "features": "Off-road capability, Towing package",
 
+        "link" : "Ford",
+
         "mileage": 0
 
     },
@@ -51,6 +53,8 @@ const data = [
         "description": "Midsize sedan",
 
         "features": "Safety Sense, Apple CarPlay",
+
+        "link" : "Toyota",
 
         "mileage": 0
 
@@ -70,6 +74,8 @@ const data = [
 
         "features": "Honda Sensing, Turbocharged",
 
+        "link" : "Honda",
+
         "mileage": 0
 
     },
@@ -87,6 +93,8 @@ const data = [
         "description": "Luxury sedan",
 
         "features": "Quattro, MMI touch",
+
+        "link" : "Audi",
 
         "mileage": 0
 
@@ -106,6 +114,8 @@ const data = [
 
         "features": "4x4, Removable top",
 
+        "link" : "Jeep",
+
         "mileage": 0
 
     },
@@ -123,6 +133,8 @@ const data = [
         "description": "Luxury sedan",
 
         "features": "iDrive, Twin-turbo",
+
+        "link" : "BMW",
 
         "mileage": 0
 
@@ -142,6 +154,8 @@ const data = [
 
         "features": "MBUX, Turbocharged",
 
+        "link" : "Mercedes",
+
         "mileage": 0
 
     },
@@ -159,6 +173,8 @@ const data = [
         "description": "Sports car",
 
         "features": "V8, Rear-wheel drive",
+
+        "link" : "Chevrolet",
 
         "mileage": 0
 
@@ -178,6 +194,8 @@ const data = [
 
         "features": "ProPILOT, All-wheel drive",
 
+        "link" : "Nissan",
+
         "mileage": 0
 
     },
@@ -195,6 +213,8 @@ const data = [
         "description": "Compact car",
 
         "features": "Turbocharged, Apple CarPlay",
+
+        "link" : "Volkswagen",
 
         "mileage": 0
 
@@ -214,6 +234,8 @@ const data = [
 
         "features": "All-wheel drive, EyeSight",
 
+        "link" : "Subaru",
+
         "mileage": 0
 
     },
@@ -231,6 +253,8 @@ const data = [
         "description": "SUV",
 
         "features": "Apple CarPlay, All-wheel drive",
+
+        "link" : "Kia",
 
         "mileage": 0
 
@@ -250,6 +274,8 @@ const data = [
 
         "features": "Apple CarPlay, SafetySense",
 
+        "link" : "Hyundai",
+
         "mileage": 0
 
     },
@@ -267,6 +293,8 @@ const data = [
         "description": "SUV",
 
         "features": "Apple CarPlay, Turbocharged",
+
+        "link" : "Mazda",
 
         "mileage": 0
 
@@ -286,6 +314,8 @@ const data = [
 
         "features": "Apple CarPlay, Turbocharged",
 
+        "link" : "Acura",
+
         "mileage": 0
 
     },
@@ -303,6 +333,8 @@ const data = [
         "description": "Luxury SUV",
 
         "features": "All-wheel drive, Turbocharged",
+
+        "link" : "Volvo",
 
         "mileage": 0
 
@@ -322,6 +354,8 @@ const data = [
 
         "features": "Apple CarPlay, Safety System",
 
+        "link" : "Lexus",
+
         "mileage": 0
 
     },
@@ -340,6 +374,8 @@ const data = [
 
         "features": "Apple CarPlay, Turbocharged",
 
+        "link" : "Cadillac",
+
         "mileage": 0
 
     },
@@ -357,6 +393,8 @@ const data = [
         "description": "Luxury sedan",
 
         "features": "Apple CarPlay, All-wheel drive",
+
+        "link" : "Jaguar",
 
         "mileage": 0
 
